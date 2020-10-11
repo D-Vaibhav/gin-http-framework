@@ -1,0 +1,12 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /videos                   --> main.main.func1 (4 handlers)
+[GIN-debug] POST   /videos                   --> main.main.func2 (4 handlers)
+[GIN-debug] Listening and serving HTTP on :7000
+[GIN-debug] redirecting request 307: /videos --> /videos
+Output from Logger() - ::1 - [11 Oct 20 13:56 IST] POST /videos 401 0s 
+[GIN-debug] redirecting request 307: /videos --> /videos
+Output from Logger() - ::1 - [11 Oct 20 13:57 IST] POST /videos 200 2.0302ms 
+Output from Logger() - ::1 - [11 Oct 20 13:57 IST] POST /videos 200 0s 

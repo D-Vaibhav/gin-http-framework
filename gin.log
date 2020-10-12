@@ -5,7 +5,5 @@
 [GIN-debug] GET    /videos                   --> main.main.func1 (4 handlers)
 [GIN-debug] POST   /videos                   --> main.main.func2 (4 handlers)
 [GIN-debug] Listening and serving HTTP on :7000
-Output from Logger() - ::1 - [12 Oct 20 21:52 IST] POST /videos 400 997.6µs 
-Output from Logger() - ::1 - [12 Oct 20 21:52 IST] POST /videos 400 0s 
-Output from Logger() - ::1 - [12 Oct 20 21:53 IST] POST /videos 400 997.7µs 
-Output from Logger() - ::1 - [12 Oct 20 21:53 IST] POST /videos 200 0s 
+Output from Logger() - ::1 - [12 Oct 20 22:56 IST] POST /videos 400 1.0702ms 
+Output from Logger() - ::1 - [12 Oct 20 22:56 IST] POST /videos 200 283.1µs 

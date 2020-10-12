@@ -10,7 +10,7 @@ type Person struct {
 
 // binding is an attribute used to give data infomation about the property
 type Video struct {
-	Title       string `json:"title" binding:"min=2,max=100"`
+	Title       string `json:"title" binding:"min=2,max=100" validate:"is-cool"`
 	Description string `json:"description" binding:"max=200"`
 	URL         string `json:"url" binding:"required,url"`
 	Author      Person `json:"author" binding:"required"`
